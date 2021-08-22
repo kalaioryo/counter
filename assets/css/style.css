@@ -3,29 +3,16 @@
     box-sizing: border-box;
 }
 
-/*
-.color1 {color: #0f4b27;} V
-.color2 {color: #0e6930;}
-.color3 {color: #2e9237;}
-.color4 {color: #75cd41;}
-.color5 {color: #d2ff52;} G
-*/
-
 body {
     background-color: #75cd41;
     display: flex;
     justify-content: center;
 }
 
-
-
 .main {
-    /*background-color: blue;*/
     margin-top: 50px;
-    /*border: 1px red solid;*/
     width: 300px;
     height: 100%;
-    /*adding: 20px;*/
 }
 
 .display{
@@ -107,3 +94,17 @@ h3{
     text-align: center;
     color: #d2ff52;
 }
+
+.pointer:hover {
+    cursor: pointer;
+}
+
+
+/* color
+
+.color1 {color: #0f4b27;} 
+.color2 {color: #0e6930;}
+.color3 {color: #2e9237;}
+.color4 {color: #75cd41;}
+.color5 {color: #d2ff52;}
+*/

@@ -13,19 +13,15 @@ reset.addEventListener('click', zero);
 
 function add(){
     number++;
-    console.log(parseFloat(number));
-    console.log(typeof number);
     h3.textContent = number;
 }
 
 function less(){
     number--;
-    console.log(parseFloat(number));
     h3.textContent = number;
 }
 
 function zero(){
     number = 0;
-    console.log(parseFloat(number));
     h3.textContent = number;
 }
