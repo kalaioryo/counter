@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*
+.color1 {color: #0f4b27;} V
+.color2 {color: #0e6930;}
+.color3 {color: #2e9237;}
+.color4 {color: #75cd41;}
+.color5 {color: #d2ff52;} G
+*/
+
+body {
+    background-color: #75cd41;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.main {
+    /*background-color: blue;*/
+    margin-top: 50px;
+    /*border: 1px red solid;*/
+    width: 300px;
+    height: 100%;
+    /*adding: 20px;*/
+}
+
+.display{
+    background-color: #0f4b27;;
+    height: 100px;
+    padding: 30px;
+    border-radius: 50px;
+
+}
+
+.container-button{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 40px 0;
+}
+
+.button-minus{
+    background-color:#0e6930;
+    border: 5px solid #0f4b27;
+    border-radius: 25px;
+    width: 40%;
+    height: 50px;
+    padding: 10px 15%;
+}
+
+.button-minus:hover {
+    background-color:#0f4b27;
+    border: 5px solid #d2ff52;
+}
+
+.button-plus{
+    background-color: #0e6930;
+    border: 5px solid #0f4b27;
+    border-radius: 25px;
+    width: 40%;
+    height: 50px;
+    padding: 10px 15%;
+}
+
+.button-plus:hover {
+    background-color:#0f4b27;
+    border: 5px solid #d2ff52;
+}
+
+.reset{
+    background-color: #0e6930;
+    border: 5px solid #0f4b27;
+    border-radius: 25px;
+    width: 70%;
+    height: 60px;
+    margin: auto;
+}
+
+.reset:hover {
+    background-color:#0f4b27;
+    border: 5px solid #d2ff52;
+}
+
+h1{
+    text-align: center;
+    margin: auto;
+    color: #0f4b27;
+}
+
+h2{
+    font-size: 34px;
+    text-align: center;
+    color: #d2ff52;
+}
+
+p{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+h3{
+    font-size: 34px;
+    text-align: center;
+    color: #d2ff52;
+}
