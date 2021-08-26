@@ -11,6 +11,8 @@ minus.addEventListener('click', less);
 reset.addEventListener('click', zero);
 
 
+
+
 function add(){
     number++;
     h3.textContent = number;
@@ -25,3 +27,16 @@ function zero(){
     number = 0;
     h3.textContent = number;
 }
+
+document.addEventListener('keydown', function(event) {
+    if (event.code == "NumpadAdd" ) {
+        number++;
+        h3.textContent = number;
+    } else if (event.code == "NumpadSubtract" ){
+        number--;
+        h3.textContent = number;
+    } else if (event.code == 'Delete') {
+        number = 0;
+        h3.textContent = number;
+    } else return
+  });
