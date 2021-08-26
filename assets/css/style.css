@@ -1,6 +1,7 @@
 *{
     margin: 0;
     box-sizing: border-box;
+    user-select: none;
 }
 
 body {
@@ -70,6 +71,7 @@ body {
 .reset:active {
     background-color:#0f4b27;
     border: 5px solid #d2ff52;
+    user-select: none;
 }
 
 h1{
@@ -99,7 +101,6 @@ h3{
 .pointer:active {
     cursor: pointer;
 }
-
 
 /* color
 
