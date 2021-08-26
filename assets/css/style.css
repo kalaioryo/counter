@@ -53,7 +53,7 @@ body {
     padding: 10px 15%;
 }
 
-.button-plus:hover {
+.button-plus:active {
     background-color:#0f4b27;
     border: 5px solid #d2ff52;
 }
@@ -67,7 +67,7 @@ body {
     margin: auto;
 }
 
-.reset:hover {
+.reset:active {
     background-color:#0f4b27;
     border: 5px solid #d2ff52;
 }
@@ -96,7 +96,7 @@ h3{
     color: #d2ff52;
 }
 
-.pointer:hover {
+.pointer:active {
     cursor: pointer;
 }
 
