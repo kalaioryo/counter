@@ -40,7 +40,7 @@ body {
     padding: 10px 15%;
 }
 
-.button-minus:hover {
+.button-minus:active {
     background-color:#0f4b27;
     border: 5px solid #d2ff52;
 }
