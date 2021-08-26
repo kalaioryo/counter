@@ -7,7 +7,7 @@ let h3 = document.querySelector('h3');
 number = 0;
 
 plus.addEventListener('click', add);
-minus.addEventListener('click', less);
+minus.addEventListener('click', Subtract);
 reset.addEventListener('click', zero);
 
 
@@ -18,7 +18,7 @@ function add(){
     h3.textContent = number;
 }
 
-function less(){
+function Subtract(){
     number--;
     h3.textContent = number;
 }
