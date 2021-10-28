@@ -15,7 +15,7 @@ Realizzare un counter avente un display con valore di partenza a 0 con la possib
 
 Ho realizzato il design tramite:
 
-* Metodo mobile first
+* Metodo mobile first.
 * Un unico e semplice file di stile css.
 * Colori scelti da una palette di base verde, dagli abbinamenti armonici ma allo stesso tempo contrastanti.
 * Contrasti che non penalizzano la leggibilità dell'applicazione.
