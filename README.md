@@ -9,7 +9,7 @@ Realizzare un counter avente un display con valore di partenza a 0 con la possib
 ## Funzionalità extra
 
 * Realizzate le funzioni basi ho voluto dilettarmi con il codice aggiungendo un ulteriore tasto "RESET" che riporta il valore a 0.
-* Aggiunta anche la possibilità di modificare il valore tramite i tasti +, -, e Canc/Del della tastiera.
+* Aggiunta anche la possibilità di modificare il valore tramite i tasti +, - e Canc/Del della tastiera.
 
 ## Intefaccia
 
