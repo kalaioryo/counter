@@ -29,5 +29,3 @@ Ho realizzato il design tramite:
 Tramite il foglio di stile ho reso gli elementi dell'applicazione non selezionabile, rendendo molto più semplice e piacevole l'interazione per l'utente sia da desktop che da smartphone.
 
 <p align="center"><img src='.\assets\img\example-css.png' alt='example'/></p>
-
-    
