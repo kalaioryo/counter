@@ -1,4 +1,4 @@
-//structure
+//Elements Body
 
 //main div
 const mainDiv = document.getElementById('main');
